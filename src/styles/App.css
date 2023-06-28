@@ -2,6 +2,11 @@ h1 {
     color: #27aedb;
     text-align: center;
     }
+
+*{
+    margin: 0;
+    padding: 0;
+}
     
 
 button{
@@ -9,4 +14,18 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    display: flex;
+    width:100%;
+    border: 1px solid red;
+}
+
+.markdown{
+    flex-grow: 1;
+}
+
+.display{
+    flex-grow: 1;
 }
